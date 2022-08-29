@@ -9,3 +9,4 @@ root.render(
 );
 
 //아이디가 root 인 곳에서 render() 를 실행하는 파일
+//만약 코드를 본다면 index.js 에서 app.js 로 타고 가는게 맞다.

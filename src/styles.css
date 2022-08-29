@@ -1,13 +1,13 @@
 @import "https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css";
 
-* {
+input {
+  all: unset;
+  appearance: none;
   box-sizing: border-box;
 }
 
-input {
-  all: unset;
+* {
   box-sizing: border-box;
-  appearance: none;
 }
 
 body {
@@ -124,6 +124,7 @@ form {
   text-align: center;
   border-radius: 20px;
   color: white;
+  box-sizing: border-box;
 }
 
 .factoryInput__label {
@@ -248,13 +249,15 @@ form {
   margin-bottom: 10px;
   font-size: 12px;
   color: black;
+  box-sizing: content-box;
 }
 
 .authSubmit {
   text-align: center;
   background: #04aaff;
   color: white;
-  margin-top: 10;
+  margin-top: 10px;
+  box-sizing: content-box;
   cursor: pointer;
 }
 
@@ -273,4 +276,9 @@ form {
   display: block;
   font-size: 12px;
   text-decoration: underline;
+}
+
+.hihi {
+  flex-direction: column;
+  display: flex;
 }
