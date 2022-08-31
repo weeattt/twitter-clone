@@ -21,10 +21,11 @@ const Navigation = ({userObj}) => {
                         alignItems: "center",
                         fontSize: 12, }}>
                         <FontAwesomeIcon icon={faUser} color={"#04AAFF"} size="2x" />
-                        <span style={{ marginTop: 10 }}>
+                        <span style={{ marginTop: 10 }} /* userObj 는 app.js -> router.js -> navigation 으로 내려준 props */>
                             {userObj.displayName
                               ? `${userObj.displayName}의 Profile`
                               : "Profile"}
+                              
                         </span>
                     </Link>
             </li>

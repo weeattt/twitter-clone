@@ -5,7 +5,8 @@ import Navigation from "./Navigation";
 import Profile from "../routes/Profile";
 
 const AppRouter = ({ isLoggedIn, userObj, refreshUser}) => {
-// '이 3개의 prop 들은 상황에 따라 계속 다른값을 주고싶은 속성들이다 ~ ' 라고 생각하면 좋다.
+// '이 3개의 전달된 prop 들은 상황에 따라 계속 다른값을 주고싶은 속성들이다 ~ ' 라고 생각하면 좋다.
+
     return (
         <div
           style={{

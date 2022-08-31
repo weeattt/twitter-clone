@@ -53,7 +53,7 @@ const AuthForm = () => {
           className="authInput"
         />
         <input
-          name="password"
+          name="password" // 키보드를 입력하면 name 속성에 지정한 값이 출력된다.
           type="password"
           placeholder="Password"
           required
